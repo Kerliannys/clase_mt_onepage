@@ -1,0 +1,194 @@
+html{
+  scroll-behavior: smooth;
+}
+* {
+    margin:0 ;
+padding: 0;
+box-sizing: border-box;
+
+ }
+
+ body   { 
+  background: #494848 ;
+  text-align: right;
+  }
+
+ header {
+    width: 100%;
+    margin-top: 0;
+ }
+
+.circulo {
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+
+} 
+
+
+ header .encabezado { 
+    background: url(img/fondo-gris.jpg.jpeg);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    padding:50px 2%;
+
+ }
+
+
+ header .encabezado .texto {
+margin: 200px 5%;
+text-align:left; 
+color: rgb(10, 10, 10);
+max-width: 600px;
+
+
+
+  }
+
+  header .encabezado .texto .texto1 {
+    font-weight:700px;
+    font-size:50px;
+    justify-content: space-between;
+   
+  }
+
+  header .encabezado .texto .texto2 {
+    font-size: 35px;
+    justify-content: space-between;
+    
+  }
+   
+
+  header .encabezado .texto .texto3 {
+    font-size: 15px; 
+    justify-content: space-between;
+  
+   
+  }
+  
+     .contenedor,
+    .contenedor2 {
+      max-width:1000px ;
+      margin-left: 2%;
+      text-align:left;
+      font-size: 40px;
+      margin-top: 70px;
+  
+    }
+
+   
+
+
+  .contenedor nav {
+    background: #494848 ;
+    text-align:left;
+
+  }
+
+
+
+  .contenedor nav .menu { 
+    list-style:none;
+    text-align:center center;
+    
+   }
+
+ 
+     .contenedor nav .menu li {
+    display:inline-block;
+  
+}
+
+    .contenedor nav .menu li a {
+       color:rgb(1, 1, 1);
+       font-size:23px;
+       text-decoration:none;
+       padding:10px 0;
+        display:inline-block;
+        margin-left:55px;
+        transition:.5s;
+        text-align:right;
+     
+        }
+
+      
+
+        .contenedor nav .menu li a:hover {
+          color:rgb(198, 197, 202)
+
+        }
+
+        .contenedor article {
+           margin:30px 0;
+           background: rgb(145, 143, 143);
+           padding: 40px
+
+         }
+
+
+         .contenedor2 article {
+          margin:30px 0;
+          background: rgb(82, 81, 81);
+          padding: 50px
+
+        }
+
+         .contenedor article p {
+           margin:25px;
+           line-height: 30px;
+           font-size: 20px;
+
+          }
+
+          
+         .contenedor2 article p {
+          margin:25px;
+          line-height: 30px;
+          font-size: 20px;
+
+         }
+
+          .contenedor-menu {
+            position:sticky;
+            top: 0;
+           
+            }
+
+            .redes {
+              list-style: none;
+              margin-top: 20px;
+          
+           }
+          
+          
+           .redes a {
+              color: black;
+              font-size: 45px;
+              padding: 10px 5px;
+              display: block;
+              transition: all 0.5s ease-in-out;
+              display: inline-block;
+          }
+          
+          .redes a:hover {
+              color: rgb(91, 89, 89);
+              transform: scale(1.1);
+          }
+
+         
+          .img
+          {
+            float: right;
+            border-radius: 40%;
+            overflow: hidden;
+            width: 120px;
+            height: 120px;
+          }
+       
+          
+ 
+
+
